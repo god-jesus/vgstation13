@@ -5869,3 +5869,14 @@ obj/item/weapon/reagent_containers/food/snacks/butterfingers_l
 	..()
 	reagents.add_reagent(NUTRIMENT, 3)
 	bitesize = 2
+
+/obj/item/weapon/reagent_containers/food/snacks/burek
+	name = "burek"
+	desc = "It's only burek if it has meat in it. Anything else is a pie."
+	icon_state = "burek"	
+	food_flags = FOOD_MEAT
+
+/obj/item/weapon/reagent_containers/food/snacks/burek/New()
+	..()
+	reagents.add_reagent(NUTRIMENT, 5)
+	bitesize = 1
